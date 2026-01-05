@@ -1,0 +1,79 @@
+title: Control Your City's Infrastructure at [Massive Scale]{class="text-primary"}
+description: The carrier-grade IoT Urban Development Platform. Manage millions of street lights and sensors with 99.999% uptime. Built on Erlang/Elixir for real-time reactivity.
+seo:
+  title: UrbanCMS - IoT Smart City & Street Light Management Platform
+  description: Carrier-grade IoT platform for smart cities. Manage street lights, energy meters, and sensors with massive scalability, 99.999% uptime, and universal connectivity.
+navigation: false
+hero:
+  links:
+    - label: Request Demo
+      icon: i-lucide-arrow-right
+      trailing: true
+      to: /pricing
+      size: xl
+    - label: View Documentation
+      icon: i-lucide-file-text
+      size: xl
+      color: neutral
+      variant: subtle
+      to: /docs
+sections:
+  - title: Massive Scalability & Reliability
+    description: Built to manage the entire city in real-time without failure. Experience the power of the BEAM VM (Erlang/Elixir) for fault-tolerant operation.
+    id: scalability
+    orientation: horizontal
+    image:
+      src: 3.png
+      alt: Massive Scalability & Reliability
+    features:
+      - name: Fleet Management
+        description: Firmware Over-The-Air (FOTA), bulk updates, and configuration for your entire device fleet.
+        icon: i-lucide-server
+      - name: Real-Time Reactivity
+        description: Instant command execution and status updates via Phoenix LiveView and RabbitMQ.
+        icon: i-lucide-zap
+      - name: Universal Connectivity
+        description: Native LwM2M, MQTT, HTTP, and raw TCP/UDP support. Connect any asset.
+        icon: i-lucide-network
+  - title: Advanced Data & Search
+    description: Instant visibility & deep analytics. Leverage PostgreSQL and OpenSearch for instant search across millions of devices and historical reporting.
+    orientation: horizontal
+    reverse: true
+    image:
+      src: 5.png
+      alt: Advanced Data & Search
+    features:
+      - name: Real-Time Monitoring
+        description: "Live map visualization and instant alarm notifications. [Image suggestion: Dashboard showing a heatmap of energy consumption across a city district]"
+        icon: i-lucide-map
+      - name: Data Sovereignty
+        description: Deploy On-Premise, Private Cloud, or Public Cloud (AWS). Meets strict government data privacy/GDPR regulations.
+        icon: i-lucide-database
+      - name: Security First
+        description: End-to-end encryption (DTLS/TLS) and secure device onboarding.
+        icon: i-lucide-shield-check
+features:
+  title: Open Standards. No Vendor Lock-in.
+  description: Why leading cities choose our platform over proprietary silos.
+  items:
+    - title: Universal Interoperability
+      description: Northbound/Southbound interfaces allow seamless integration with any CMS or field device.
+      icon: i-lucide-globe
+    - title: Light Point Controller Agnostic
+      description: Don't get locked in. Use any hardware from any manufacturer with our standard protocols.
+      icon: i-lucide-cpu
+    - title: API-First Architecture
+      description: Designed for developers. Extend functionality and integrate with existing city systems easily.
+      icon: i-lucide-code
+    - title: Erlang Stability
+      description: Built on the same technology that powers the world's most reliable telecom networks.
+      icon: i-lucide-activity
+    - title: GDPR Compliant
+      description: Meet strict government data privacy regulations with full control over data residency.
+      icon: i-lucide-lock
+    - title: Future-Proof Infrastructure
+      description: Ready for the next generation of smart city sensors and environmental monitoring.
+      icon: i-lucide-layers
+cta:
+  title: Ask to join the Pilot Program
+  description: Ready to scale from ten devices to ten million? We are currently selecting a limited number of partners for our Beta Program to experience the raw power of our LwM2M and Elixir-driven platform before the public launch.
